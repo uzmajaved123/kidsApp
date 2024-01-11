@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/layoutSubCatItem"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_md"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="130dp"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_above="@+id/btnDwPl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="8dp"
+        android:layout_margin="5dp"
+        android:elevation="10dp">
+
+        <LinearLayout
+            android:background="#7a4c23"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_margin="@dimen/padding_sm"
+                android:id="@+id/ivIcon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/loading_anim"
+                android:scaleType="fitXY"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+<!--
+    <FrameLayout
+        android:layout_above="@+id/btnDwPl"
+        android:background="@drawable/curved_item"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/ivIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:contentDescription="@string/image"
+            android:padding="@dimen/padding_sm" />
+
+    </FrameLayout>
+-->
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:visibility="gone"
+        android:id="@+id/btnDwPl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/padding_sm"
+        android:layout_marginTop="@dimen/padding_sm"
+        android:layout_marginEnd="@dimen/padding_sm"
+        android:layout_marginBottom="@dimen/padding_sm"
+        android:background="@drawable/curved_item"
+        android:text="@string/play"
+        android:textAlignment="center"
+        android:textColor="@color/mehroonish"
+        android:textSize="@dimen/text_size_md"
+        android:textStyle="bold" />
+</RelativeLayout>

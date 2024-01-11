@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/bg_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="end">
+
+        <ImageView
+            android:id="@+id/ivHome"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:layout_toStartOf="@+id/ivSetting"
+            android:src="@drawable/ic_home"
+            android:contentDescription="@string/image" />
+
+        <ImageView
+            android:id="@+id/ivSetting"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toStartOf="@+id/ivMenu"
+            android:contentDescription="@string/image"
+            android:src="@drawable/ic_setting" />
+
+        <ImageView
+            android:id="@+id/ivMenu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="5dp"
+            android:src="@drawable/ic_menu"
+            android:contentDescription="@string/image" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/extreme_curved_corners"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingStart="60dp"
+        android:paddingEnd="60dp">
+
+        <LinearLayout
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvLoveUs"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_md"
+                android:text="@string/love_us"
+                android:textAlignment="center"
+                android:textColor="@color/teal_200"
+                android:textSize="@dimen/text_size_xxlg"
+                android:textStyle="bold" />
+
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tvStore"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_md"
+                android:text="@string/sound_enabled"
+                android:textAlignment="center"
+                android:textColor="@color/teal_200"
+                android:textSize="@dimen/text_size_xxlg"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvOurApps"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_md"
+                android:text="@string/our_apps"
+                android:textAlignment="center"
+                android:textColor="@color/teal_200"
+                android:textSize="@dimen/text_size_xxlg"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvFaqs"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/padding_md"
+                android:text="@string/faq"
+                android:textAlignment="center"
+                android:textColor="@color/teal_200"
+                android:textSize="@dimen/text_size_xxlg"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_id"/>
+
+</RelativeLayout>

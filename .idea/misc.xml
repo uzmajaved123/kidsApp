@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/drawable/curved_item.xml" value="0.1" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/drawable/extreme_curved_corners.xml" value="0.13914473684210527" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/drawable/ic_pause_circle_filled_black_24dp.xml" value="0.13914473684210527" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/drawable/ic_play_circle_filled_black_24dp.xml" value="0.13914473684210527" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/drawable/no_curve_player.xml" value="0.1" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/drawable/silghtly_curved_corners.xml" value="0.2203125" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/drawable/stilghtly_curved_corners.xml" value="0.2203125" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/layout-land/activity_play_video.xml" value="0.23125" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/layout-land/activity_setting.xml" value="0.24635416666666668" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/layout-land/data_item.xml" value="0.1555921052631579" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/layout/activity_category.xml" value="0.12894736842105264" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/layout/activity_category_videos.xml" value="0.20416666666666666" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/layout/activity_faqactivity.xml" value="0.20416666666666666" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/layout/activity_play_video.xml" value="0.33" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/layout/activity_play_video2.xml" value="0.20416666666666666" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/layout/activity_setting.xml" value="0.12894736842105264" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/layout/category_item.xml" value="0.22830518345952241" />
+        <entry key="..\:/2k21/KidsApp/app/src/main/res/layout/data_item.xml" value="0.12894736842105264" />
+        <entry key="..\:/2k21/Oct2k21/KidsApp/app/src/main/res/drawable/curved_item.xml" value="0.33046875" />
+        <entry key="..\:/2k21/Oct2k21/KidsApp/app/src/main/res/layout/activity_category.xml" value="0.30625" />
+        <entry key="..\:/2k21/Oct2k21/KidsApp/app/src/main/res/layout/activity_category_videos.xml" value="0.30625" />
+        <entry key="..\:/2k21/Oct2k21/KidsApp/app/src/main/res/layout/activity_faqactivity.xml" value="0.1" />
+        <entry key="..\:/2k21/Oct2k21/KidsApp/app/src/main/res/layout/activity_main.xml" value="0.30625" />
+        <entry key="..\:/2k21/Oct2k21/KidsApp/app/src/main/res/layout/activity_play_video.xml" value="0.30625" />
+        <entry key="..\:/2k21/Oct2k21/KidsApp/app/src/main/res/layout/activity_play_video2.xml" value="0.25" />
+        <entry key="..\:/2k21/Oct2k21/KidsApp/app/src/main/res/layout/activity_setting.xml" value="0.30625" />
+        <entry key="..\:/2k21/Oct2k21/KidsApp/app/src/main/res/layout/category_item.xml" value="0.30625" />
+        <entry key="..\:/2k21/Oct2k21/KidsApp/app/src/main/res/layout/data_item.xml" value="0.30625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

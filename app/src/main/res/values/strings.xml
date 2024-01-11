@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Kids Learning Show</string>
+    <string name="pause">Pause</string>
+    <string name="go_to_next">Go To Next</string>
+    <string name="image">Image</string>
+    <string name="download">Download</string>
+    <string name="play">Play</string>
+    <string name="store">Store</string>
+    <string name="love_us">Love Us</string>
+    <string name="our_apps">Our Apps</string>
+    <string name="faq">FAQ</string>
+    <string name="sound_enabled">Sound Enabled</string>
+<!--
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
+-->
+    <string name="app_id">ca-app-pub-7666800107119338~9011467159</string>
+    <string name="banner_id">ca-app-pub-7666800107119338/6766299965</string>
+    <string name="about_des">
+        <b>What is OCA Kids Point?</b><br/>\n
+        OCA Kids Point is the brand that is made for Kids for their entertainment and
+        learning purpose. We are here to provide knowledge to your kid with best animated
+        videos. So that your kid can learn something new.\n\n
+        <b>What content we provide?</b>\n
+        We provide the content for kids, where they can learn Nursery rhymes with best
+        and cute animations for your kids. All nursery rhymes are available in our app.\n\n
+        <b>Why there are Ads in our application?</b>\n
+        To develop an app it requires large development and team to work. To manage the
+        cost we show few ads that are friendly to kids.\n\n
+        <b>Are videos available offline?</b>\n
+        Yes all of our videos are available offline but make sure you need to download
+        all these videos first. Downloading these videos require internet connection for
+        the first time.\n\n
+        <b>Why should I download videos after downloading the app?</b>\n
+        To watch these videos you are require to download these video, as we have reduce
+        size application so you can download the videos which you need.\n\n
+        <b>Downloading videos are slow? Why should I do?</b>\n
+        Downloading speed depends upon the speed of your internet. If your connection is
+        slow then it will take some time to download the video.\n\n
+        <b>After downloading the videos I am unable to play the rhymes. What should I do?</b>\n
+        Make sure that the videos you downloaded are complete or you have enough space on
+        your device.\n\n
+        <b>I don’t like the app; I want to see other feature.</b>\n
+        If you have any query or suggestion then you can contact us at info@ocanalytica.com.\n\n
+    </string>
+
+</resources>
